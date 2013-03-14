@@ -25,8 +25,3 @@ It works on the Favorites tab, too, so you can breeze through your favorite plug
 ## Notes ##
 
 The concept was inspired by the installation routine in the [Developer](http://wordpress.org/extend/plugins/developer/) plugin.
-
-## Credits ##
-
-Built by [Brady Vercher](https://twitter.com/bradyvercher)   
-Copyright 2012 [Blazer Six, Inc.](http://www.blazersix.com/)
