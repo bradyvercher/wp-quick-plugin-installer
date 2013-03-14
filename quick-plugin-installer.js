@@ -4,19 +4,19 @@ jQuery(function($) {
 			$spinner = $self.next('.spinner'),
 			request = {},
 			queryVars;
-		
+
 		e.preventDefault();
-		
+
 		$spinner.css( 'display', 'inline-block' );
-		
+
 		queryVars = this.href.split('?')[1].split('&');
 		$.each( queryVars, function( i, queryVar ) {
 			var pair = queryVar.split('=');
 			request[ pair[0] ] = pair[1];
 		});
-		
+
 		request.action = 'qpi-' + request.action;
-		
+
 		$.ajax({
 			url: ajaxurl,
 			type: 'POST',
@@ -30,7 +30,7 @@ jQuery(function($) {
 					// @todo Better error reporting.
 					$self.after( '<span style="color: #ee0000">' + QPI.error + '</span>' ).remove();
 				}
-				
+
 				$spinner.hide();
 			},
 			error: function() {
