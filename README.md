@@ -2,7 +2,7 @@
 
 A WordPress plugin to quickly install and activate plugins without doing a page refresh after each step.
 
-Note that this is mostly a concept at this point and could use some improvements. It may not work with plugins that have custom activation routines.
+This is mostly a concept at this point and could use some improvements. It may not work with plugins that have custom activation routines.
 
 Pull requests are welcome.
 
@@ -18,7 +18,7 @@ Then go to your Plugins screen and click __Activate__.
 
 ## Usage ##
 
-Just search for a plugin as usual, but now, when you click __Install__, the plugin will be installed in the background and you'll have the option to activate it immediately. Then just search for and install another plugin without ever leaving the search results page.
+Search for a plugin as usual, but now, when you click __Install__, the plugin will be installed in the background and you'll have the option to activate it immediately. Then search for and install another plugin without ever leaving the results page.
 
 It works on the Favorites tab, too, so you can breeze through your favorite plugins and install them without all the page refreshes in-between.
 
